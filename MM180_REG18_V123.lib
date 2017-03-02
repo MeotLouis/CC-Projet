@@ -1,0 +1,135 @@
+.LIB TT 
+.PARAM  
+
+*1.8V NMOS 
++  DTOX_N_18_MM      =   0.0000E+00                  DXL_N_18_MM       =   0.0000E+00                
++  DXW_N_18_MM       =   0.0000E+00                  DVTH0_N_18_MM     =   0.0000E+00                
++  DU0_N_18_MM       =   0.0000E+00                  DLVTH0_N_18_MM    =   0.0000E+00
++  DWVTH0_N_18_MM    =   0.0000E+00                  DWU0_N_18_MM      =   0.0000E+00
++  DPVTH0_N_18_MM    =   0.0000E+00                  DPVSAT_N_18_MM    =   0.0000E+00
++  DCGDO_N_18_MM     =   0.0000E+00                  DCGSO_N_18_MM     =   0.0000E+00                
++  DCJ_N_18_MM       =   0.0000E+00                  DCJSW_N_18_MM     =   0.0000E+00                
++  DCJGATE_N_18_MM   =   0.0000E+00  
+
+*1.8V PMOS 
++  DTOX_P_18_MM      =   0.0000E+00                  DU0_P_18_MM       =   0.0000E+00
++  DXL_P_18_MM       =   0.0000E+00                  DXW_P_18_MM       =   0.0000E+00                
++  DVTH0_P_18_MM     =   0.0000E+00                  DLVTH0_P_18_MM    =   0.0000E+00
++  DWVTH0_P_18_MM    =   0.0000E+00
++  DPVTH0_P_18_MM    =   0.0000E+00                  DPVSAT_P_18_MM    =   0.0000E+00
++  DCGDO_P_18_MM     =   0.0000E+00                
++  DCGSO_P_18_MM     =   0.0000E+00                  DCJ_P_18_MM       =   0.0000E+00                
++  DCJSW_P_18_MM     =   0.0000E+00                  DCJGATE_P_18_MM   =   0.0000E+00                
+
+.include './MM180_REG18_V123.mdl'   
+
+.ENDL  TT    
+
+
+.LIB SS 
+.PARAM 
+ 
+*1.8V NMOS 
++  DTOX_N_18_MM      =   1.0000E-10                  DXL_N_18_MM       =   2.2000E-08                
++  DXW_N_18_MM       =  -2.0000E-08                  DVTH0_N_18_MM     =   1.4500E-02                
++  DU0_N_18_MM       =  -1.0000E+01                  DLVTH0_N_18_MM    =   1.4000E-03
++  DWVTH0_N_18_MM    =   1.1000E-02                  DWU0_N_18_MM      =  -4.5000E+00
++  DPVTH0_N_18_MM    =  -1.0000E-03                  DPVSAT_N_18_MM    =   1.4000E+02
++  DCGDO_N_18_MM     =  -2.3500E-11                  DCGSO_N_18_MM     =  -2.3500E-11                
++  DCJ_N_18_MM       =   1.0300E-04                  DCJSW_N_18_MM     =   1.3400E-11                
++  DCJGATE_N_18_MM   =   5.0000E-11 
+
+*1.8V PMOS 
++  DTOX_P_18_MM      =   1.0000E-10                  DU0_P_18_MM       =  -3.0000E+00 
++  DXL_P_18_MM       =   1.0000E-08                  DXW_P_18_MM       =  -2.0000E-08                
++  DVTH0_P_18_MM     =  -1.4000E-02                  DLVTH0_P_18_MM    =   0.0000E-00
++  DWVTH0_P_18_MM    =  -1.0000E-02
++  DPVTH0_P_18_MM    =   3.0000E-04                  DPVSAT_P_18_MM    =   5.8000E+01
++  DCGDO_P_18_MM     =  -2.0540E-11                
++  DCGSO_P_18_MM     =  -2.0540E-11                  DCJ_P_18_MM       =   1.1400E-04                
++  DCJSW_P_18_MM     =   1.7400E-11                  DCJGATE_P_18_MM   =   4.2000E-11   
+             
+.include './MM180_REG18_V123.mdl'  
+
+.ENDL  SS     
+
+.LIB FF 
+.PARAM  
+
+*1.8V NMOS 
++  DTOX_N_18_MM      =  -1.0000E-10                  DXL_N_18_MM       =  -1.3600E-08                
++  DXW_N_18_MM       =   2.0000E-08                  DVTH0_N_18_MM     =  -1.4500E-02                
++  DU0_N_18_MM       =   1.0000E+01                  DLVTH0_N_18_MM    =  -7.0000E-04
++  DWVTH0_N_18_MM    =  -1.0100E-02                  DWU0_N_18_MM      =   2.0000E+00
++  DPVTH0_N_18_MM    =   6.5000E-04                  DPVSAT_N_18_MM    =  -8.0000E+01
++  DCGDO_N_18_MM     =   2.3500E-11                  DCGSO_N_18_MM     =   2.3500E-11                
++  DCJ_N_18_MM       =  -1.0300E-04                  DCJSW_N_18_MM     =  -1.3400E-11                
++  DCJGATE_N_18_MM   =  -5.0000E-11 
+
+*1.8V PMOS 
++  DTOX_P_18_MM      =  -1.0000E-10                  DU0_P_18_MM       =   3.0000E+00
++  DXL_P_18_MM       =  -8.0000E-09                  DXW_P_18_MM       =   1.5000E-08                
++  DVTH0_P_18_MM     =   1.8000E-02                  DLVTH0_P_18_MM    =  -1.0000E-03
++  DWVTH0_P_18_MM    =   8.5000E-03
++  DPVTH0_P_18_MM    =   1.0000E-05                  DPVSAT_P_18_MM    =  -2.7000E+01
++  DCGDO_P_18_MM     =   2.0540E-11                
++  DCGSO_P_18_MM     =   2.0540E-11                  DCJ_P_18_MM       =  -1.1400E-04                
++  DCJSW_P_18_MM     =  -1.7400E-11                  DCJGATE_P_18_MM   =  -4.2000E-11                
+
+ .include './MM180_REG18_V123.mdl'  
+
+.ENDL  FF     
+
+.LIB SNFP 
+.PARAM 
+ 
+*1.8V NMOS 
++  DTOX_N_18_MM      =   0.0000E+00                  DXL_N_18_MM       =   1.1000E-08                
++  DXW_N_18_MM       =  -1.0000E-08                  DVTH0_N_18_MM     =   1.3000E-02                
++  DU0_N_18_MM       =  -5.0000E+00                  DLVTH0_N_18_MM    =   1.1000E-03
++  DWVTH0_N_18_MM    =   4.7000E-03                  DWU0_N_18_MM      =  -2.0000E+00
++  DPVTH0_N_18_MM    =  -5.5000E-04                  DPVSAT_N_18_MM    =   6.0000E+01
++  DCGDO_N_18_MM     =   0.0000E+00                  DCGSO_N_18_MM     =   0.0000E+00                
++  DCJ_N_18_MM       =   1.0300E-04                  DCJSW_N_18_MM     =   1.3400E-11                
++  DCJGATE_N_18_MM   =   5.0000E-11 
+
+*1.8V PMOS 
++  DTOX_P_18_MM      =   0.0000E+00                  DU0_P_18_MM       =   2.0000E+00
++  DXL_P_18_MM       =  -4.0000E-09                  DXW_P_18_MM       =   1.0000E-08                
++  DVTH0_P_18_MM     =   1.7000E-02                  DLVTH0_P_18_MM    =  -3.0000E-04
++  DWVTH0_P_18_MM    =   3.5000E-03
++  DPVTH0_P_18_MM    =   9.0000E-05                  DPVSAT_P_18_MM    =  -3.0000E+01
++  DCGDO_P_18_MM     =   0.0000E+00                
++  DCGSO_P_18_MM     =   0.0000E+00                  DCJ_P_18_MM       =  -1.1400E-04                
++  DCJSW_P_18_MM     =  -1.7400E-11                  DCJGATE_P_18_MM   =  -4.2000E-11                
+ 
+.include './MM180_REG18_V123.mdl'  
+ 
+.ENDL  SNFP  
+    
+.LIB FNSP 
+.PARAM  
+
+*1.8V NMOS 
++  DTOX_N_18_MM      =   0.0000E+00                  DXL_N_18_MM       =  -9.5000E-09     
++  DXW_N_18_MM       =   1.0000E-08                  DU0_N_18_MM       =   6.0000E+00
++  DVTH0_N_18_MM     =  -1.2300E-02                  DLVTH0_N_18_MM    =  -7.0000E-04
++  DWVTH0_N_18_MM    =  -4.6000E-03                  DWU0_N_18_MM      =   1.7000E+00
++  DPVTH0_N_18_MM    =   4.1000E-04                  DPVSAT_N_18_MM    =  -7.0000E+01
++  DCGDO_N_18_MM     =   0.0000E+00                
++  DCGSO_N_18_MM     =   0.0000E+00                  DCJ_N_18_MM       =  -1.0300E-04                
++  DCJSW_N_18_MM     =  -1.3400E-11                  DCJGATE_N_18_MM   =  -5.0000E-11                
+  
+*1.8V PMOS 
++  DTOX_P_18_MM      =   0.0000E+00                  DXL_P_18_MM       =   4.5000E-09                
++  DXW_P_18_MM       =  -1.0000E-08                  DVTH0_P_18_MM     =  -1.3000E-02                
++  DU0_P_18_MM       =  -2.5000E+00                  DLVTH0_P_18_MM    =  -3.0000E-04
++  DWVTH0_P_18_MM    =  -5.0000E-03
++  DPVTH0_P_18_MM    =   1.3000E-04                  DPVSAT_P_18_MM    =   3.4000E+01
++  DCGDO_P_18_MM     =   0.0000E+00                  DCGSO_P_18_MM     =   0.0000E+00                
++  DCJ_P_18_MM       =   1.1400E-04                  DCJSW_P_18_MM     =   1.7400E-11                
++  DCJGATE_P_18_MM   =   4.2000E-11                
+  
+.include './MM180_REG18_V123.mdl'  
+
+.ENDL  FNSP            
